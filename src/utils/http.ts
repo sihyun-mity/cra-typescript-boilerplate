@@ -36,4 +36,6 @@ const deleteRequest = async <T>(url: string, config?: AxiosRequestConfig): Promi
   return response.data;
 };
 
-export default { get, post, put, delete: deleteRequest };
+const http = { get, post, put, delete: deleteRequest };
+
+export default http;
