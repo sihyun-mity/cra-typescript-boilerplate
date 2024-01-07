@@ -1,7 +1,7 @@
 import { elapsedTime } from '@/utils';
 
 describe('Util: elapsed time', () => {
-  it('get 1 seconds elapsed time', () => {
+  it('get 1 second elapsed time', () => {
     const start = new Date();
     const end = (() => {
       const date = new Date(start);
