@@ -10,7 +10,7 @@
     },
     {
       "type": "node-terminal",
-      "name": "Debug - production",
+      "name": "Debug - Production",
       "request": "launch",
       "command": "npm run start-prod",
       "cwd": "${workspaceFolder}"
@@ -24,7 +24,7 @@
     },
     {
       "type": "node-terminal",
-      "name": "Build - production",
+      "name": "Build - Production",
       "request": "launch",
       "command": "npm run build-prod",
       "cwd": "${workspaceFolder}"
