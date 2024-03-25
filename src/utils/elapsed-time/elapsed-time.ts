@@ -1,4 +1,4 @@
-import { TimesEntity } from '@/utils/elapsed-time/elapsedTime.type';
+import { TimesEntity } from '@/utils/elapsed-time/elapsed-time.type';
 
 const elapsedTime = (start: Date, end: Date) => {
   const diff = end.getTime() - start.getTime(),

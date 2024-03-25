@@ -1,1 +1,1 @@
-export { default as elapsedTime } from './elapsedTime';
+export { default as elapsedTime } from './elapsed-time';
