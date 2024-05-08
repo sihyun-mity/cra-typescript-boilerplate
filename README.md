@@ -9,7 +9,7 @@ Visual Studio Code와 IntelliJ Idea용 사전 실행 구성이 있습니다.
 ---
 
 ## Required
-- NodeJS 버전을 16.20.2 이상, 17 이하로 사용해야 합니다.
+- NodeJS 버전을 18.19.1 이상, 19 이하로 사용해야 합니다.
 
 ## 프로젝트 설정
 
