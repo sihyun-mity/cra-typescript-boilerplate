@@ -1,6 +1,7 @@
 {
   "name": "cra-typescript-boilerplate",
   "version": "0.1.0",
+  "homepage": "",
   "private": true,
   "engines": {
     "npm": ">=10.2.4 <11.0.0",
