@@ -3,29 +3,8 @@ import normalize from 'styled-normalize';
 
 const GlobalStyle = createGlobalStyle`
   ${normalize}
-
   * {
     transition: background-color 300ms, color 300ms, border 300ms, fill 300ms, -webkit-text-stroke 300ms;
-  }
-
-  *::-webkit-scrollbar {
-    width: 16px;
-  }
-
-  *::-webkit-scrollbar-track {
-    border-radius: 8px;
-  }
-
-  *::-webkit-scrollbar-thumb {
-    height: 56px;
-    border-radius: 8px;
-    border: 4px solid transparent;
-    background-clip: content-box;
-    background-color: #888;
-  }
-
-  *::-webkit-scrollbar-thumb:hover {
-    background-color: #555;
   }
 
   body {
