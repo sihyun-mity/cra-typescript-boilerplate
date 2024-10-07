@@ -1,5 +1,3 @@
-'use client';
-
 import { useMediaQuery } from 'usehooks-ts';
 import { useCallback, useLayoutEffect } from 'react';
 import { useMediaStore } from '@/stores';
