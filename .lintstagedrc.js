@@ -1,5 +1,3 @@
-// See https://nextjs.org/docs/basic-features/eslint#lint-staged for details
-
 const eslint = 'eslint --fix';
 const prettier = 'prettier --write';
 

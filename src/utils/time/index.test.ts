@@ -1,4 +1,4 @@
-import { elapsedTime } from '@/utils';
+import { getElapsedTime } from '@/utils';
 
 describe('Util: elapsed time', () => {
   it('get 1 second elapsed time', () => {
@@ -9,7 +9,7 @@ describe('Util: elapsed time', () => {
       return date;
     })();
 
-    const output = elapsedTime(start, end);
+    const output = getElapsedTime(start, end);
     expect(output).toEqual('1초');
   });
 });
